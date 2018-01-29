@@ -31,7 +31,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
   ],
   providers: [
     AuthService,
-    AuthService
+    AuthGuardService
   ],
   bootstrap: [AppComponent]
 })
